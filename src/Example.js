@@ -6,7 +6,8 @@ class Example extends Component {
   render() {
     return (
       <div>
-        <h1>Hello Example</h1>
+        <h1>{this.props.name}</h1>
+        <h2>{this.props.age}</h2>
       </div>
     );
   }

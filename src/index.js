@@ -6,5 +6,12 @@ import Example from './Example';
 
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<div><App /><Example /></div>, document.getElementById('root'));
+ReactDOM.render(
+    <div>
+        <App />
+        <Example name="Forza" age="18+" />
+        <Example name="Contra" age="6+" />
+    </div>,
+    document.getElementById('root')
+);
 registerServiceWorker();
