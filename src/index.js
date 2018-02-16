@@ -12,7 +12,7 @@ ReactDOM.render(
         <App />
         <Example name="Forza" age="18+" />
         <Example name="Contra" age="6+" />
-        <div>Testing</div>
+        <Task />
     </div>,
     document.getElementById('root')
 );
